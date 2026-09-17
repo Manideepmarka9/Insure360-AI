@@ -86,29 +86,36 @@ Captures approval of recommended actions for auditability and follow-up.
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### Home Dashboard
 
 screenshots/home_dashboard.png
 
 ### Portfolio Analytics
 
-![Portfolio Analytics](nalytics.png
+screenshots/portfolio_analytics.png
 
 ### Customer 360
 
-screenshots/customer_360_view.png
+![Customer /customer_360_view.png
 
 ### Customer Timeline & AI Summary
 
-screenshots/customer_timeline_ai_summary.png
+![Customer /customer_timeline_ai_summary.png
 
 ### Next Best Action
 
-screenshots/next_best_action.png
+![Next Best Actionest_action.png
 
 ### Executive Brief & Action Approval
 
-![Executive Brief & Action Approval](screenspng
+screenshots/executive_brief_action_approval.png
+---
+
+## 🏗️ Solution Architecture
+
+docs/solution_architecture.png
 
 ---
 
