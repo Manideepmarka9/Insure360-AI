@@ -92,7 +92,7 @@ screenshots/home_dashboard.png
 
 ### Portfolio Analytics
 
-![Portfolio/portfolio_analytics.png
+![Portfolio Analytics](nalytics.png
 
 ### Customer 360
 
@@ -108,7 +108,7 @@ screenshots/next_best_action.png
 
 ### Executive Brief & Action Approval
 
-![Executive/executive_brief_action_approval.png
+![Executive Brief & Action Approval](screenspng
 
 ---
 
