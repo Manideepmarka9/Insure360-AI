@@ -2,82 +2,80 @@
 
 Customer Intelligence & Next Best Action Copilot powered by Snowflake Cortex AI.
 
-## Overview
+## 🚀 Overview
 
-Insure360 AI provides a unified Customer 360 view by combining structured insurance data and unstructured customer interaction data.
+Insure360 AI is an AI-powered Customer 360 platform that combines structured and unstructured insurance data to provide actionable customer insights.
 
-The solution enables agents to:
+The solution helps insurance agents:
 
 - Understand customer health
-- Analyze sentiment
-- Review claims and payments
+- Analyze customer sentiment
+- Review claims and payment history
 - Receive AI-generated customer summaries
 - Get Next Best Action recommendations
 
 ---
 
-## Business Problem
+## 🎯 Business Problem
 
-Insurance customer information is often distributed across multiple systems.
+Insurance customer information is often spread across multiple systems, making it difficult for agents to quickly understand customer status and make informed decisions.
 
-Agents spend significant time gathering information before making decisions.
-
-Insure360 AI centralizes customer insights into a single AI-powered experience.
+Insure360 AI centralizes customer intelligence into a single AI-powered dashboard.
 
 ---
 
-## Solution Architecture
+## 🏗️ Solution Architecture
 
-Structured Data:
+### Structured Data
 - Customers
 - Policies
 - Claims
 - Payments
 
-Unstructured Data:
+### Unstructured Data
 - Customer Call Transcripts
 
-AI Layer:
+### AI Layer
 - Snowflake Cortex AI
 - Sentiment Analysis
-- AI Summaries
+- AI Conversation Summary
+- Executive Brief Generation
 - Next Best Action Recommendation
 
-Frontend:
+### Frontend
 - Streamlit in Snowflake
 
 ---
 
-## Features
+## ✨ Key Features
 
-### Customer 360 Dashboard
+### 📊 Portfolio Dashboard
+View customer portfolio metrics including risk, payment issues, unresolved claims, and upcoming renewals.
 
-Unified view of:
+### 📈 Portfolio Analytics
+Visual insights into customer risk distribution, claim status, payment status, and renewal pipeline.
 
-- Customer details
-- Policies
-- Claims
-- Payments
+### 👤 Customer 360
+Unified customer profile with sentiment, risk indicators, policy information, claims, and payment details.
 
-### AI Summary
+### 🤖 AI Conversation Summary
+Generates customer concern summaries and recommended actions using AI.
 
-Generates an executive-level customer summary.
+### 🎯 Next Best Action
+Provides AI-powered recommendations to improve retention and customer satisfaction.
 
-### Sentiment Analysis
+### 📋 Executive Brief
+Creates executive-level summaries for decision makers.
 
-Identifies customer sentiment from interaction history.
+### 💬 Ask Customer 360
+Natural language interface to ask questions about a customer.
 
-### Next Best Action
-
-Provides actionable recommendations to agents.
-
-### Customer Timeline
-
-Displays customer journey and activity history.
+### ✅ Action Approval Workflow
+Captures approval of recommended actions for auditability and follow-up.
 
 ---
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 - Snowflake
 - Snowflake Cortex AI
@@ -86,12 +84,41 @@ Displays customer journey and activity history.
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-See screenshots folder.
+### Home Dashboard
+screenshots/home_dashboard.png
+
+### Portfolio Analytics
+screenshots/portfolio_analytics.png
+
+### Customer 360
+screenshots/customer_360_view.png
+
+### Customer Timeline & AI Summary
+![Timeline & AI Summary](line_ai_summary.png
+
+### Next Best Action
+screenshots/next_best_action.png
+
+### Executive Brief & Action Approval
+screenshots/executive_brief_action_approval.png
 
 ---
 
-## Author
+## 🌟 Business Benefits
+
+- Improved customer retention
+- Faster agent decision making
+- Reduced churn risk
+- Unified customer intelligence
+- AI-assisted customer engagement
+- Better operational efficiency
+
+---
+
+## 👨‍💻 Author
 
 Manideep Marka
+
+Built for Snowflake CoCo CLI Hackathon.
