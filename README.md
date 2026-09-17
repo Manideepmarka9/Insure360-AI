@@ -88,7 +88,7 @@ Captures approval of recommended actions for auditability and follow-up.
 
 ### Home Dashboard
 
-screenshots/home_dashboard.png
+<img src="screenshots/home_dashboard.png
 
 ### Portfolio Analytics
 
