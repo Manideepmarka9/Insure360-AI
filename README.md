@@ -1,136 +1,281 @@
-# 🏦 Insure360 AI
+For the README of the current CoCo/Cortex-built version, I'd use this:
 
-Customer Intelligence & Next Best Action Copilot powered by Snowflake Cortex AI.
+🏦 Insure360 AI
 
-## 🚀 Overview
+Unified Customer 360 & Next Best Action Copilot built with Snowflake Cortex AI, CoCo CLI, Semantic Views, Cortex Agent, and Streamlit in Snowflake.
 
-Insure360 AI is an AI-powered Customer 360 platform that combines structured and unstructured insurance data to provide actionable customer insights.
+🚀 Overview
 
-The solution helps insurance agents:
+Insure360 AI is an intelligent insurance customer engagement platform that unifies structured and unstructured customer information into a single Customer 360 experience.
 
-- Understand customer health
-- Analyze customer sentiment
-- Review claims and payment history
-- Receive AI-generated customer summaries
-- Get Next Best Action recommendations
+The solution combines:
 
----
+Customer data
+Policy data
+Claims data
+Payment history
+Customer call transcripts
 
-## 🎯 Business Problem
+to help service agents, claims teams, retention specialists, and business stakeholders make faster and more informed decisions.
 
-Insurance customer information is often spread across multiple systems, making it difficult for agents to quickly understand customer status and make informed decisions.
+Using Snowflake Cortex AI and CoCo CLI, the platform generates explainable recommendations, executive summaries, customer insights, and grounded natural-language responses.
 
-Insure360 AI centralizes customer intelligence into a single AI-powered dashboard.
+🎯 Business Problem
 
----
+Insurance organizations often struggle with fragmented customer information distributed across policies, claims, payments, and customer interactions.
 
-## 🏗️ Solution Architecture
+As a result:
 
-### Structured Data
-- Customers
-- Policies
-- Claims
-- Payments
+Agents spend time gathering customer context
+Customer issues are discovered too late
+Retention opportunities are missed
+Decisions vary by individual interpretation
+Executive reviews require manual preparation
 
-### Unstructured Data
-- Customer Call Transcripts
+Insure360 AI centralizes customer context, explains customer risk, recommends the next best action, and captures action decisions in a governed workflow.
 
-### AI Layer
-- Snowflake Cortex AI
-- Sentiment Analysis
-- AI Conversation Summary
-- Executive Brief Generation
-- Next Best Action Recommendation
+🏗️ Solution Architecture
+Structured Data
+Customers
+Policies
+Claims
+Payments
+Unstructured Data
+Customer Call Transcripts
+Customer Intelligence Layer
+Customer 360 View
+Customer Journey Timeline
+Policy Lifecycle Analytics
+Claims Workflow Analytics
+Portfolio KPI Dashboard
+Portfolio Breakdown Analytics
+AI Layer
+Snowflake Cortex AI
+AI Interaction Digest
+AI Executive Brief
+Grounded Customer Copilot
+Semantic View
+Cortex Agent
+Decision Layer
+Explainable Next Best Action Engine
+Priority Scoring
+Confidence Scoring
+Estimated Business Impact
+Approval Workflow
+Audit Trail
+Experience Layer
+Streamlit in Snowflake
+Portfolio Dashboard
+Customer 360
+Timeline View
+AI Insights
+Customer Copilot
+✨ Key Features
+📊 Portfolio Dashboard
 
-### Frontend
-- Streamlit in Snowflake
+Provides portfolio-level visibility into:
 
----
+Customer portfolio health
+Claims performance
+Payment health
+Renewal pipeline
+Risk indicators
+📈 Portfolio Analytics
 
-## ✨ Key Features
+Interactive visual analytics for:
 
-### 📊 Portfolio Dashboard
-View customer portfolio metrics including risk, payment issues, unresolved claims, and upcoming renewals.
+Customer Churn Risk Distribution
+Claims Status Distribution
+Payment Status Distribution
+Renewal Pipeline Analysis
+👤 Customer 360
 
-### 📈 Portfolio Analytics
-Visual insights into customer risk distribution, claim status, payment status, and renewal pipeline.
+Unified customer profile including:
 
-### 👤 Customer 360
-Unified customer profile with sentiment, risk indicators, policy information, claims, and payment details.
+Customer Health Score
+Churn Risk
+Customer Value
+Lifetime Value
+Policies
+Claims
+Payments
+Customer Engagement
+📅 Customer Journey Timeline
 
-### 🤖 AI Conversation Summary
-Generates customer concern summaries and recommended actions using AI.
+Single chronological view of:
 
-### 🎯 Next Best Action
-Provides AI-powered recommendations to improve retention and customer satisfaction.
+Policy Events
+Claims Events
+Payments
+Customer Interactions
+Escalations
+🎯 Next Best Action Engine
 
-### 📋 Executive Brief
-Creates executive-level summaries for decision makers.
+Explainable recommendation framework with:
 
-### 💬 Ask Customer 360
-Natural language interface to ask questions about a customer.
+8 Deterministic Business Rules
+Priority Levels
+Confidence Scores
+Estimated Business Impact
+Action Reasoning
 
-### ✅ Action Approval Workflow
-Captures approval of recommended actions for auditability and follow-up.
+Sample actions:
 
----
+Retention Call with Loyalty Discount
+Offer Payment Assistance Plan
+Escalate Claim and Send Status Update
+Personalized Coverage Review
+Loyalty Recognition and Reward
+📋 Executive Brief
 
-## 🛠️ Technology Stack
+AI-generated executive summaries including:
 
-- Snowflake
-- Snowflake Cortex AI
-- Streamlit
-- SQL
+Risk Level
+Business Impact
+Priority
+Recommended Action
+Revenue / Retention Impact
+🤖 AI Interaction Digest
 
----
+Automatically summarizes customer interaction history by analyzing customer transcripts and identifying:
 
-## 📸 Screenshots
+Customer concerns
+Sentiment trends
+Escalation patterns
+Risk indicators
+💬 Grounded Customer Copilot
 
-### Home Dashboard
+Natural language interface built using Snowflake Cortex AI.
 
-![](screenshots/home_dashboard.png)
+Example questions:
 
-### Portfolio Analytics
+Which customers have high churn risk?
+Show me all platinum customers.
+What is our fraud exposure?
+Which claims need immediate attention?
 
-![Portfolio Analytics](screenshots/portfolio_analytics.png)
+Responses are grounded using Customer 360 context and anti-hallucination safeguards.
 
-### Customer 360
+✅ Action Approval Workflow
 
-![](screenshots/customer_360_view.png)
+Recommended actions can be:
 
-### Customer Timeline & AI Summary
+Approved
+Rejected
+Audited
 
-![Customers Summary](screenshots/customer_timeline_ai_summary.png)
+to maintain governance and explainability.
 
-### Next Best Action
+🕘 Audit Trail
 
-![](screenshots/next_best_action.png)
+Captures:
 
-### Executive Brief & Action Approval
+Approved Actions
+Rejected Actions
+User Decisions
+Timestamps
+Action History
+🛠️ Technology Stack
+Snowflake
+Tables
+Views
+Stored Procedures
+Internal Stages
+Streamlit in Snowflake
+AI
+Snowflake Cortex AI
+Semantic Views
+Cortex Agent
+Grounded AI Responses
+Executive Brief Generation
+Development
+CoCo CLI / Cortex Code
+Snowflake AI Assistant
+SQL
+Python
+Streamlit
+🧠 CoCo CLI Usage
 
-![](screenshots/executive_brief_action_approval.png)
+CoCo CLI and Cortex Code were used across the complete prototype lifecycle.
 
+Planning
+Solution Design
+Customer 360 Architecture
+Data Model Design
+Implementation Roadmap
+Development
+SQL Artifact Generation
+View Generation
+Semantic View Creation
+Cortex Agent Creation
+Streamlit Application Generation
+Testing & Validation
+Referential Integrity Validation
+KPI Validation
+Business Rule Validation
+Anti-Hallucination Testing
+Regression Testing
+Deployment
+Streamlit Deployment
+Runtime Troubleshooting
+Compatibility Fixes
+📊 Dataset
+Current Portfolio
+Dataset	CountCustomers	24
+Policies	34
+Claims	15
+Payments	244
+Call Transcripts	30
+Recommendations
+Metric	ValueNext Best Actions	37
+Business Rules	8
+Journey Events	328
+📸 Screenshots
+Portfolio Dashboard
 
+screenshots/portfolio_dashboard.png
 
-## 🏗️ Solution Architecture
+Portfolio Analytics
 
-![](docs/SolutionArchitecture.png)
+screenshots/portfolio_analytics.png
 
----
+Customer 360
 
-## 🌟 Business Benefits
+screenshots/customer_360.png
 
-- Improved customer retention
-- Faster agent decision making
-- Reduced churn risk
-- Unified customer intelligence
-- AI-assisted customer engagement
-- Better operational efficiency
+Customer Journey Timeline
 
----
+screenshots/customer_timeline.png
 
-## 👨‍💻 Author
+Next Best Action
+
+screenshots/next_best_action.png
+
+Action Approval & Audit Trail
+
+screenshots/action_workflow.png
+
+AI Executive Brief
+
+screenshots/executive_brief.png
+
+Grounded Customer Copilot
+
+screenshots/customer_copilot.png
+
+🌟 Business Benefits
+Faster customer understanding
+Explainable recommendations
+Reduced churn risk
+Improved retention outcomes
+Better claims visibility
+Improved payment recovery
+Increased operational consistency
+Executive-level customer intelligence
+Governed decision-making
+Complete auditability
+👨‍💻 Author
 
 Manideep Marka
 
-Built for Snowflake CoCo CLI Hackathon.
+Built for the Snowflake CoCo CLI Hackathon (GCC Edition) using Snowflake Cortex AI, CoCo CLI, Semantic Views, Cortex Agent and Streamlit in Snowflake. 🏆🚀
