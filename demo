@@ -1,398 +1,125 @@
-Absolutely. Below is a ready-to-speak 6-minute demo script combining the presentation and live Snowflake Streamlit URL. It follows the deck’s Monitor → Understand → Assist → Act storyline and uses slides 7–10 as backup screenshots if the live app has any issue. Insure360_AI_CocoTeam_Submission_10of10_FirstPageFixed.pptx
+Yes, show only the essential PPT slides first, then spend most of the 3–5 minutes on the live workflow. Here is a shorter, natural script aligned to the final deck and submission requirement. Insure360_AI_CocoTeam_Submission_10of10_FirstPageFixed.pptx
 
-Before starting
+4-Minute Demo Script
+0:00–0:15 | PPT Slide 1: Introduction
 
-Keep these ready:
+Hello, I’m Manideep Marka from Cocoteam.
+ This is Insure360 AI, a Unified Customer 360 and Next Best Action Copilot built using CoCo CLI, Snowflake Cortex AI and Streamlit.
 
-PowerPoint in presentation mode
-Streamlit app URL open in another browser tab
-In the app, confirm:
-Portfolio Dashboard loads
-Angela Wright is available in Customer 360
-Timeline loads
-Next Best Action queue loads
-AI Insights loads
-Copilot question box is empty
-Keep PowerPoint slides 7–10 as backup if the live app is slow.
-Close unrelated browser tabs and notifications.
-Full Demo Script
-Slide 1: Title
+0:15–0:35 | PPT Slide 2: Problem and Solution
 
-Speak:
+Insurance customer information is fragmented across policies, claims, payments and customer interactions.
+ Insure360 AI connects this information in one workspace, generates explainable insights and helps users take governed next actions.
 
-Hello everyone. I am Manideep Marka from Cocoteam.
+0:35–0:55 | PPT Slide 4: Solution Flow
 
-My solution is Insure360 AI, a Unified Customer 360 and Next Best Action Copilot for the insurance domain.
+The solution follows four steps:
+ Monitor portfolio risk, Understand the customer, Assist with AI insights, and Act through explainable recommendations and approval.
 
-The application combines structured insurance data with unstructured customer interactions and converts that information into explainable, actionable customer intelligence.
+The final deck uses this Monitor, Understand, Assist and Act structure.
 
-Time: 15 seconds
+0:55–1:15 | PPT Slide 5 or 6: Architecture and CoCo CLI
 
-Slide 2: Executive Summary
+Structured customer, policy, claims and payment data is combined with unstructured call transcripts in Snowflake.
+ CoCo CLI supported planning, SQL and Streamlit development, validation, troubleshooting and deployment.
 
-Speak:
+The implementation trail includes generated artifacts, backend validations, deterministic recommendation rules and the deployed app.
 
-Insurance customer information is usually fragmented across policies, claims, payments and customer interactions.
+Switch to the Live Streamlit URL
 
-Agents spend time searching for information and manually connecting the customer story before choosing an action.
+Now I’ll demonstrate one complete workflow from customer context to governed action.
 
-Insure360 AI brings this context into one Streamlit workspace. It uses Snowflake Cortex AI to generate customer insights and grounded answers, while deterministic business rules recommend the next best action.
+1:15–1:40 | Input: Portfolio Dashboard
 
-The outcome is simple: understand the customer faster, explain what matters and take the next best action.
+Open: Portfolio Dashboard
 
-The deck defines the solution as one workspace combining Customer 360, timeline, analytics, AI insights and an action workflow.
+The workflow starts with portfolio monitoring.
+ This dashboard shows customer, policy, claim, payment, churn and renewal signals, helping users identify where attention is required.
 
-Time: 30 seconds
+Do not explain every KPI. Briefly point to risk distribution, claims, payments and renewals.
 
-Slide 3: Problem Brief
+1:40–2:05 | Processing Capability 1: Customer 360
 
-Speak:
+Open: Customer 360
+ Select: Angela Wright
 
-The current customer-service journey has four main problems.
+I’ll open a high-risk customer.
+ Customer 360 combines health score, churn risk, sentiment, customer value, policies, claims and payment behavior into one profile.
 
-First, agents must search across multiple operational systems.
+2:05–2:25 | Processing Capability 2: AI Insights
 
-Second, they manually assemble policy, payment, claim and interaction context.
+Open: AI Insights
+ Select: Angela Wright
 
-Third, unstructured call transcripts are difficult to consume during a live customer interaction.
+Snowflake Cortex AI processes structured Customer 360 data and unstructured interactions to generate an executive brief and interaction digest.
+ The output explains the risk, business impact, priority and recommended action.
 
-Finally, the next action can depend on individual interpretation rather than a consistent workflow.
+2:25–3:05 | Output Capability 3: Next Best Action
 
-The opportunity is to make customer context immediately usable through unified history, explainable AI-assisted insight and a repeatable action process.
+Open: Next Best Action
+ Select: A priority-one recommendation
 
-These four stages and the opportunity statement are presented on the Problem Brief slide.
+The Next Best Action engine applies deterministic business rules to the customer context.
+ Every recommendation includes priority, confidence, reasoning, rule ID and estimated impact.
+ This provides explainability and keeps the decision governed.
 
-Time: 30 seconds
+Click: Approve
 
-Slide 4: Solution Overview
+I’ll approve this recommendation.
+ The decision is now recorded with the user, status and timestamp in the audit history.
 
-Point to each section while speaking.
+This demonstrates the complete workflow:
 
-Speak:
+Input: Customer and interaction data
+Processing: Customer 360, Cortex AI and business rules
+Output: Explainable action, approval and audit record
 
-The solution follows a simple four-stage journey.
+3:05–3:35 | Bonus: Grounded Customer Copilot
 
-Monitor: understand portfolio-level risk, claims, payments and renewals.
+Open: Customer Copilot
+ Use suggested question:
 
-Understand: open a Customer 360 profile and review the complete customer timeline.
-
-Assist: use AI-generated executive briefs, interaction summaries and grounded natural-language questions.
-
-Act: review the explainable Next Best Action, approve or reject it and retain the decision in the audit trail.
-
-It is one workspace, one customer story and one informed next step.
-
-The four-stage Monitor, Understand, Assist and Act flow is the central solution structure in the deck.
-
-Time: 30 seconds
-
-Slide 5: Architecture
-
-Speak:
-
-At the foundation, the solution uses five data domains: customers, policies, claims, payments and customer call transcripts.
-
-The structured records and unstructured interactions are unified through Snowflake views into the Customer 360 and customer journey layers.
-
-The analytics layer provides portfolio KPIs, distributions and operational signals.
-
-The decision layer contains eight deterministic Next Best Action rules. Every recommendation includes its rule ID, priority, confidence, reasoning and estimated business impact.
-
-Cortex AI generates interaction digests and executive briefs. A semantic view and Cortex Agent support the grounded AI architecture.
-
-Everything is surfaced through a Streamlit application with approval and audit capabilities.
-
-The architecture is presented as a Snowflake-native flow from structured and unstructured data to governed action.
-
-Time: 40 seconds
-
-Slide 6: CoCo CLI Lifecycle
-
-Speak:
-
-CoCo CLI, through Cortex Code, was used across the full implementation lifecycle.
-
-During planning, it helped design the architecture, data model, gap analysis and roadmap.
-
-During development, it generated SQL views, synthetic data, semantic-model artifacts, agent definitions and Streamlit code.
-
-During validation, it tested referential integrity, KPI realism, the eight recommendation rules and anti-hallucination behavior.
-
-During execution, it uploaded and deployed the Streamlit application and helped resolve runtime compatibility issues.
-
-This resulted in nine generated implementation artifacts, fourteen successful backend validations, eight deterministic rules and a deployed Streamlit application.
-
-The CoCo lifecycle slide covers planning, building, validation and deployment, including nine artifacts, 14 validations and eight rules.
-
-Time: 40 seconds
-
-Switch to the Live URL
-
-Say:
-
-I will now switch from the architecture to the live Insure360 AI application.
-
-Open the prepared Streamlit browser tab.
-
-Live Demo
-1. Portfolio Dashboard
-
-Action:
-
-Open Portfolio Dashboard
-Slowly scroll through KPIs and charts
-
-Speak:
-
-The journey begins at the portfolio level.
-
-The application currently unifies 24 customers across policies, claims, payments and interactions.
-
-The dashboard surfaces active policies, written premium, loss ratio, payment performance, NPS, sentiment and escalations.
-
-Below the KPIs, the charts show customer churn risk, claim status, payment status and the renewal pipeline.
-
-This lets a manager identify where attention is needed before opening an individual customer.
-
-The portfolio slide highlights 24 customers, a 79.9% loss ratio, 94.6% on-time payments, renewals and portfolio risk visibility.
-
-Time: 35 seconds
-
-2. Customer 360
-
-Action:
-
-Click Customer 360
-Select Angela Wright
-
-Speak:
-
-I will now move from the portfolio to an individual high-risk customer, Angela Wright.
-
-The Customer 360 combines health score, churn risk, sentiment and customer value with demographic, policy, claims and engagement information.
-
-Instead of reviewing several source systems, the agent sees the complete decision context in one place.
-
-Here, the high churn risk, negative sentiment and customer value signals clearly show why this customer requires proactive attention.
-
-The Customer 360 section is designed to join health, churn, sentiment, value, claims and NPS in one decision view.
-
-Time: 35 seconds
-
-3. Customer Timeline
-
-Action:
-
-Click Customer Timeline
-Select the same customer if available
-Show policy, claim, payment and interaction events
-
-Speak:
-
-The timeline explains how the customer reached the current situation.
-
-It combines policy events, claims, payments and customer interactions in chronological order.
-
-This is important because the recommendation is not produced from one isolated field. The recommendation is grounded in the connected customer journey.
-
-Time: 25 seconds
-
-4. AI Insights
-
-Action:
-
-Click AI Insights
-Select Angela Wright
-Show the Executive Brief and Interaction Digest
-
-Speak:
-
-Next, Snowflake Cortex AI converts the connected customer information into concise business guidance.
-
-The Executive Brief provides the risk level, business impact, priority, recommended action and revenue or retention context.
-
-The Interaction Digest summarizes the customer-call history, sentiment trend, key issues, resolution status and risk signals.
-
-These outputs help the agent understand both the quantitative customer profile and the qualitative customer concern without manually reading every transcript.
-
-The AI section combines an executive brief with grounded Customer Copilot capabilities and focuses on risk, business impact, priority and action.
-
-Time: 35 seconds
-
-5. Next Best Action
-
-Action:
-
-Click Next Best Action
-Filter to Priority 1, if convenient
-Select a high-priority action
-Show:
-Action label
-Confidence
-Rule ID
-Reasoning
-Estimated impact
-
-Speak:
-
-The Next Best Action engine is deterministic and explainable.
-
-It contains eight business rules covering churn intervention, payment assistance, claim escalation, fraud investigation, retention, coverage review, premium optimization and loyalty recognition.
-
-Every recommendation has a rule ID, priority, confidence, business reasoning and estimated impact.
-
-This separation is intentional. AI provides advisory insight, while the final recommendation logic remains traceable and governed.
-
-The deck highlights 37 recommendations, eight deterministic rules and traceability through reasoning and confidence.
-
-Time: 35 seconds
-
-6. Execute the Action
-
-Action:
-
-Select one recommendation
-Click Approve
-Scroll to Audit History
-
-Speak:
-
-The application does not automatically contact the customer or modify a policy.
-
-A person reviews the recommendation and explicitly approves or rejects it.
-
-I will approve this action now.
-
-The decision is recorded with the user, recommendation, status and timestamp in the audit history.
-
-This moves the solution beyond an AI dashboard into a governed decision workflow.
-
-Pause briefly after clicking Approve.
-
-Then say:
-
-The approved action is now visible in the audit history.
-
-Time: 35 seconds
-
-7. Customer Copilot
-
-Action:
-
-Click Customer Copilot
-Enter:
 Which customers have high churn risk?
 
 
-Speak while the response loads:
+Customer Copilot answers natural-language questions using verified Customer 360 context.
 
-The Customer Copilot allows users to ask natural-language questions using verified Customer 360 context.
-
-After the response:
-
-The response lists customers from the live Customer 360 data rather than generating unsupported customer information.
-
-Then, if sufficient time remains, enter:
+If time permits, ask:
 
 What is the customer's favorite cricket team?
 
 
-After the fallback response:
+The requested information is not present in the insurance data, so the Copilot refuses to invent an answer. This demonstrates grounded behavior.
 
-This information is not present in the insurance data, so the Copilot declines to invent an answer. This demonstrates the solution’s grounding and graceful fallback behavior.
+Return to PPT
+3:35–4:00 | PPT Slide 11: Impact and Closing
 
-Time: 40 seconds
+Insure360 AI demonstrates a complete insurance decision workflow across portfolio monitoring, Customer 360, AI-assisted insight, explainable recommendations and governed action.
 
-Return to PowerPoint
-
-Return directly to Slide 11: Impact and Scale.
-
-Slide 11: Impact and Scale
-
-Speak:
-
-Insure360 AI delivers three primary outcomes.
-
-First, faster customer understanding through a unified workspace.
-
-Second, more consistent decisions through explainable rules and AI-generated summaries.
-
-Third, earlier risk response by surfacing churn, payment, fraud, claim and renewal signals before the next customer interaction.
-
-The prototype includes 24 customers, 34 policies, 15 claims, 244 payment records, 30 transcripts, 328 journey events and 37 Next Best Actions.
-
-Beyond the prototype, the same pattern can connect to CRM and service platforms, automate risk refreshes, learn from approved-action outcomes and extend the semantic model across additional insurance products.
-
-The Impact and Scale slide contains these prototype proof points and the roadmap for integration, automation, feedback learning and product expansion.
-
-Time: 35 seconds
-
-Slide 12: Closing
-
-Speak:
-
-To summarize, Insure360 AI moves insurance servicing from fragmented data and manual interpretation to one unified, explainable and governed customer decision experience.
+The prototype includes 24 customers, 34 policies, 15 claims, 244 payment records, 30 transcripts and 37 Next Best Actions.
 
 Thank you.
 
-Time: 10 seconds
+The final impact slide contains these prototype proof points and the scalability roadmap.
 
-Exact Switching Plan
-
-Use this sequence:
-
-PPT Slides 1–6
-        ↓
-Switch to Streamlit URL
-        ↓
+Exact Recording Sequence
+PPT Slide 1
+PPT Slide 2
+PPT Slide 4
+PPT Slide 5 or 6
+↓
+Switch to Streamlit
+↓
 Portfolio Dashboard
-        ↓
 Customer 360
-        ↓
-Customer Timeline
-        ↓
 AI Insights
-        ↓
 Next Best Action
-        ↓
-Approve Action
-        ↓
+Approve
 Audit History
-        ↓
 Customer Copilot
-        ↓
+↓
 Return to PPT Slide 11
-        ↓
-Closing Slide 12
+Close
 
 
-Slides 7–10 contain screenshots of these live experiences and should remain available as fallback evidence if the URL becomes slow.
-
-Short Backup Script if the URL Fails
-
-Say:
-
-The live environment is currently loading, so I will use the application screenshots included in the deck to complete the walkthrough.
-
-Then show:
-
-Slide 7: Portfolio Dashboard
-Slide 8: Customer 360 and Timeline
-Slide 9: Next Best Action and Audit
-Slide 10: AI Insights and Copilot
-Slide 11: Impact
-Slide 12: Closing
-
-Do not spend time troubleshooting during the presentation.
-
-Final Presentation Tips
-Do not read every number on the screen.
-Keep repeating the business flow: Monitor → Understand → Assist → Act
-Spend the most time on:
-Customer 360
-AI Insights
-Next Best Action
-Approval and Audit
-Say“AI-assisted”, not “AI decides.”
-State clearly that final action remains under human approval.
-If the Copilot response takes time, explain the grounding context while it loads.
+This shows PPT context briefly while keeping the recording focused on the required Input → Processing → Output execution and three modular capabilities: Customer 360, Cortex AI Insights and Next Best Action with approval.
