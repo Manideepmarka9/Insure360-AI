@@ -330,6 +330,36 @@ CoCo CLI and Cortex Code were used across the complete solution lifecycle.
 
 ---
 
+
+
+
+
+## 🧠 CoCo CLI Usage Evidence
+
+CoCo CLI and Cortex Code were used throughout the project lifecycle:
+
+### Planning
+- Solution architecture design
+- Customer 360 data model design
+- Workflow definition
+
+### Development
+- SQL artifact generation
+- Streamlit application generation
+- Semantic View creation
+- Cortex Agent setup
+
+### Testing & Validation
+- Data quality validation
+- KPI validation
+- Business rule verification
+- Anti-hallucination testing
+
+### Deployment
+- Streamlit deployment
+- Runtime troubleshooting
+- Application refinement
+
 ## 👨‍💻 Author
 
 Manideep Marka
