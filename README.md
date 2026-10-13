@@ -268,46 +268,50 @@ CoCo CLI and Cortex Code were used across the complete solution lifecycle.
 | Journey Events | 328 |
 
 ---
-
 ## 📸 Screenshots
 
 ### Portfolio Dashboard
 
-screenshots/01_Portfolio_Dashboard.png
+![](screenshots/01_Portfolio_Dashboard.png)
 
 ### Portfolio Analytics
 
-screenshots/02_Portfolio_Analytics.png
+![](screenshots/02_Portfolio_Analytics.png)
 
 ### Customer 360
 
-screenshots/03_Customer360.png
+![](screenshots/03_Customer360.png)
 
 ### Customer Journey Timeline
 
-screenshots/04_Customer_Timeline.png
+![](screenshots/04_Customer_Timeline.png)
 
 ### Next Best Action Engine
 
-screenshots/05_Next_Best_Action.png
+![](screenshots/05_Next_Best_Action.png)
 
 ### Action Approval & Audit Trail
 
-screenshots/06_Action_Audit.png
+![](screenshots/06_Action_Audit.png)
 
 ### AI Executive Brief
 
-screenshots/07_AI_Executive_Brief.png
+![](screenshots/07_AI_Executive_Brief.png)
 
 ### Grounded Customer Copilot
 
-screenshots/08_Customer_Copilot.png
+![](screenshots/08_Customer_Copilot.png)
+
+---
+
 
 ---
 
 ## 🏗️ Solution Architecture
 
-docs/SolutionArchitecture.png
+![Solution Architecture](docs/SolutionArchitecture.png)
+
+---
 
 ---
 
